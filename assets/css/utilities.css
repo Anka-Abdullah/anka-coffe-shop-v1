@@ -1,0 +1,26 @@
+.anka-card {
+  margin: 20px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.anka-title {
+  color: #6a4029;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-family: "Patrick Hand", cursive;
+}
+.chocolate {
+  margin: 0 20px;
+  color: white;
+  font-family: "Patrick Hand", cursive;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 5px 15px;
+  background-color: #6a4029;
+}
+.chocolate:hover {
+  background-color: #412719;
+  transform: scale(0.98);
+}
