@@ -25,6 +25,7 @@
       integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
     <link rel="stylesheet" href="./assets/css/utilities.css" />
     <link rel="stylesheet" href="./assets/css/taghtml.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
@@ -86,10 +87,10 @@
     </nav>
 
     <!-- main container -->
-    <div class="container-fluid main" style="margin-top: 120px">
-      <section class="coupont">
+    <div class="main container-fluid row">
+      <section class="coupont col-lg-4">
         <div class="top" style="text-align: center">
-          <h5 class="anka-title">Promo Today</h5>
+          <h4 class="anka-title">Promo Today</h4>
           <p>Coupons will be updated every weeks.<br />Check them out!</p>
         </div>
         <div class="middle">
@@ -98,7 +99,7 @@
               <img src="./assets/img/mother.png" alt="mother" />
             </div>
             <div class="txt-card">
-              <h6 class="anka-title m-0 mt-3">HAPPY MOTHER’S DAY!</h6>
+              <h6 class="anka-title m-0 mt-1">HAPPY MOTHER’S DAY!</h6>
               <p>
                 Get one of our favorite <br />
                 menu for free!
@@ -106,16 +107,16 @@
             </div>
           </div>
 
-          <div class="sunday anka-card">
+          <div class="sunday anka-card" style="background: #f5c361">
             <div class="img-card">
               <img src="./assets/img/sunday.png" alt="sunday" />
             </div>
             <div class="txt-card">
-              <h6 class="anka-title m-0 mt-3">HAPPY MOTHER’S DAY!</h6>
-              <p>
-                Get one of our favorite <br />
-                menu for free!
-              </p>
+              <h6 class="anka-title m-0 mt-1">
+                Get a cup of coffee for free <br />
+                on sunday morning
+              </h6>
+              <p>Only at 7 to 9 AM</p>
             </div>
           </div>
 
@@ -124,7 +125,7 @@
               <img src="./assets/img/mother.png" alt="mother" />
             </div>
             <div class="txt-card">
-              <h6 class="anka-title m-0 mt-3">HAPPY MOTHER’S DAY!</h6>
+              <h6 class="anka-title m-0 mt-1">HAPPY MOTHER’S DAY!</h6>
               <p>
                 Get one of our favorite <br />
                 menu for free!
@@ -132,28 +133,195 @@
             </div>
           </div>
 
-          <div class="halloween anka-card">
+          <div class="halloween anka-card" style="background: #c59378">
             <div class="img-card">
               <img src="./assets/img/halloween.png" alt="halloween" />
             </div>
             <div class="txt-card">
-              <h6 class="anka-title m-0 mt-3">HAPPY MOTHER’S DAY!</h6>
+              <h6 class="anka-title m-0 mt-1">HAPPY HALLOWEEN!</h6>
               <p>
-                Get one of our favorite <br />
-                menu for free!
+                Do you like chicken wings? Get 1 <br />
+                free only if you buy pinky promise
               </p>
             </div>
           </div>
-
-          <button class="chocolate" style="width: 97%">Apply Coupon</button>
+          <button class="chocolate" style="width: 90%; margin-top: 20px">
+            Apply Coupon</button
+          ><br /><br />
+          <div class="bottom mt-3" style="margin-bottom: 30px">
+            <h6 class="anka-title m-0">Terms and Condition</h6>
+            <p>1. You can only apply 1 coupon per day</p>
+            <p>2. It only for dine in</p>
+            <p>3. Buy 1 get 1 only for new user</p>
+            <p>4. Should make member card to apply coupon</p>
+          </div>
         </div>
-        <div class="bottom"></div>
       </section>
-      <section class="items"></section>
+
+      <section class="col-lg-8">
+        <nav class="navbar bg-white mb-3">
+          <div class="container">
+            <label class="select"
+              >Favorite & Promo
+              <input type="radio" name="radio" checked="checked" hidden />
+              <span class="checkmark"></span>
+            </label>
+            <label class="select"
+              >Coffee
+              <input type="radio" name="radio" hidden />
+              <span class="checkmark"></span>
+            </label>
+            <label class="select"
+              >Non Coffee
+              <input type="radio" name="radio" hidden />
+              <span class="checkmark"></span>
+            </label>
+            <label class="select"
+              >Foods
+              <input type="radio" name="radio" hidden />
+              <span class="checkmark"></span>
+            </label>
+            <label class="select"
+              >Add-On
+              <input type="radio" name="radio" hidden />
+              <span class="checkmark"></span>
+            </label>
+          </div>
+        </nav>
+        <!-- items -->
+        <div class="items row row-cols-1 row-cols-md-4">
+          <div class="col mb-4">
+            <div class="card-item">
+              <img
+                src="./assets/img/brew.png"
+                width="120"
+                class="rounded-pill"
+                alt="item"
+              />
+              <div class="card-item-discount">20%</div>
+              <h4 class="card-item-title">Veggie tomato mix</h4>
+              <h6 class="anka-title">IDR 34.000</h6>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card-item">
+              <img
+                src="./assets/img/brew.png"
+                width="120"
+                class="rounded-pill"
+                alt="item"
+              />
+              <div class="card-item-discount">20%</div>
+              <h4 class="card-item-title">Veggie tomato mix</h4>
+              <h6 class="anka-title">IDR 34.000</h6>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card-item">
+              <img
+                src="./assets/img/brew.png"
+                width="120"
+                class="rounded-pill"
+                alt="item"
+              />
+              <div class="card-item-discount">20%</div>
+              <h4 class="card-item-title">Veggie tomato mix</h4>
+              <h6 class="anka-title">IDR 34.000</h6>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card-item">
+              <img
+                src="./assets/img/brew.png"
+                width="120"
+                class="rounded-pill"
+                alt="item"
+              />
+              <div class="card-item-discount">20%</div>
+              <h4 class="card-item-title">Veggie tomato mix</h4>
+              <h6 class="anka-title">IDR 34.000</h6>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card-item">
+              <img
+                src="./assets/img/brew.png"
+                width="120"
+                class="rounded-pill"
+                alt="item"
+              />
+              <div class="card-item-discount">20%</div>
+              <h4 class="card-item-title">Veggie tomato mix</h4>
+              <h6 class="anka-title">IDR 34.000</h6>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card-item">
+              <img
+                src="./assets/img/brew.png"
+                width="120"
+                class="rounded-pill"
+                alt="item"
+              />
+              <div class="card-item-discount">20%</div>
+              <h4 class="card-item-title">Veggie tomato mix</h4>
+              <h6 class="anka-title">IDR 34.000</h6>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card-item">
+              <img
+                src="./assets/img/brew.png"
+                width="120"
+                class="rounded-pill"
+                alt="item"
+              />
+              <div class="card-item-discount">20%</div>
+              <h4 class="card-item-title">Veggie tomato mix</h4>
+              <h6 class="anka-title">IDR 34.000</h6>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card-item">
+              <img
+                src="./assets/img/brew.png"
+                width="120"
+                class="rounded-pill"
+                alt="item"
+              />
+              <div class="card-item-discount">20%</div>
+              <h4 class="card-item-title">Veggie tomato mix</h4>
+              <h6 class="anka-title">IDR 34.000</h6>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card-item">
+              <img
+                src="./assets/img/brew.png"
+                width="120"
+                class="rounded-pill"
+                alt="item"
+              />
+              <div class="card-item-discount">20%</div>
+              <h4 class="card-item-title">Veggie tomato mix</h4>
+              <h6 class="anka-title">IDR 34.000</h6>
+            </div>
+          </div>
+        </div>
+        <p class="mb-5 ml-5">*harga telah dipotong oleh diskon</p>
+      </section>
     </div>
 
     <!-- footer -->
-    <footer class="bg-light">
+    <footer class="bg-light mt-2">
       <div class="container p-4">
         <div class="profile">
           <a class="brand navbar-brand mb-2" href="#"

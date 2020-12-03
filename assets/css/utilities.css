@@ -1,8 +1,9 @@
 .anka-card {
   margin: 20px;
   padding: 10px 20px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 20px;
+  align-items: center;
 }
 .anka-title {
   color: #6a4029;
@@ -23,4 +24,35 @@
 .chocolate:hover {
   background-color: #412719;
   transform: scale(0.98);
+}
+.card-item {
+  padding: 5px;
+  margin-bottom: 60px;
+  border-radius: 30px;
+  width: 140px;
+  height: 200px;
+  text-align: center;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072);
+}
+.card-item img {
+  margin-top: -40px;
+}
+.card-item-discount {
+  position: relative;
+  background: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 70px;
+  border-radius: 20px;
+  font-weight: 800;
+  font-size: 23px;
+  margin-top: -90px;
+  margin-left: 90px;
+}
+.card-item-title {
+  font-size: 25px;
+  font-weight: 800;
+  font-family: "Patrick Hand", cursive;
+  margin-top: 65px;
 }
