@@ -28,9 +28,11 @@
     <link rel="stylesheet" href="./assets/css/responsive.css" />
     <link rel="stylesheet" href="./assets/css/utilities.css" />
     <link rel="stylesheet" href="./assets/css/taghtml.css" />
+    <link rel="stylesheet" href="./assets/css/cart.css" />
     <title>Coffee-Cafe</title>
   </head>
   <body>
+    <!-- <div class="container-fluid bg-dark"> -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top py-4">
       <div class="container">
         <a class="brand navbar-brand" href="#"
@@ -85,7 +87,161 @@
       </div>
     </nav>
 
-    <footer class="bg-light mt-2">
+    <!-- ===== -->
+    <!-- ===== -->
+    <section class="cart">
+      <div class="row">
+        <div class="mx-auto">
+          <div class="mapping p-3">
+            <span class="badge badge-light rounded-circle"
+              ><span class="badge badge-success rounded-circle"
+                >&#10003;</span
+              ></span
+            >
+            <div class="line"></div>
+            <span class="badge badge-light rounded-circle"
+              ><span class="badge badge-success rounded-circle"
+                >&#10003;</span
+              ></span
+            >
+            <div class="line"></div>
+            <span class="badge badge-light rounded-circle"
+              ><span
+                class="badge badge-success rounded-circle"
+                style="background: #6a4029; color: #6a4029"
+                >.</span
+              ></span
+            >
+          </div>
+          <div class="row px-3 mb-5">
+            <h5 class="top text-white" id="order">Order</h5>
+            <h5 class="top text-white" id="checkout">Checkout</h5>
+            <h5 class="top text-white" id="payment">Payment</h5>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h1 class="top text-white">
+          Checkout your <br />
+          item now!
+        </h1>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card py-5 card-cart">
+              <div class="card-body">
+                <h2 class="anka-title text-center mb-4">Order Summary</h2>
+                <div class="cart-scroll">
+                  <!-- <<<<>>>> -->
+                  <div class="row mb-4">
+                    <div class="col-auto p-0 ml-3">
+                      <img
+                        src="./assets/img/brew.png"
+                        width="62"
+                        class="rounded mt-2"
+                        alt="image"
+                      />
+                    </div>
+                    <div class="col px-3 pt-2">
+                      <p>
+                        <b>Hazelnut Latte</b>
+                      </p>
+                      <nav class="navbar p-0 m-0">
+                        <p><b>X 1</b></p>
+                        <p class="mr-4"><b>IDR 24.0</b></p>
+                      </nav>
+                      <p><b>Regular</b></p>
+                    </div>
+                  </div>
+                  <!-- <<<<>>>> -->
+                  <div class="row mb-4">
+                    <div class="col-auto p-0 ml-3">
+                      <img
+                        src="./assets/img/brew.png"
+                        width="62"
+                        class="rounded mt-2"
+                        alt="image"
+                      />
+                    </div>
+                    <div class="col px-3 pt-2">
+                      <p>
+                        <b>Hazelnut Latte</b>
+                      </p>
+                      <nav class="navbar p-0 m-0">
+                        <p><b>X 1</b></p>
+                        <p class="mr-4"><b>IDR 24.0</b></p>
+                      </nav>
+                      <p><b>Regular</b></p>
+                    </div>
+                  </div>
+                  <!-- <<<<>>>> -->
+                  <div class="row mb-4">
+                    <div class="col-auto p-0 ml-3">
+                      <img
+                        src="./assets/img/brew.png"
+                        width="62"
+                        class="rounded mt-2"
+                        alt="image"
+                      />
+                    </div>
+                    <div class="col px-3 pt-2">
+                      <p>
+                        <b>Hazelnut Latte</b>
+                      </p>
+                      <nav class="navbar p-0 m-0">
+                        <p><b>X 1</b></p>
+                        <p class="mr-4"><b>IDR 24.0</b></p>
+                      </nav>
+                      <p><b>Regular</b></p>
+                    </div>
+                  </div>
+                  <!-- <<<<>>>> -->
+                  <div class="row mb-4">
+                    <div class="col-auto p-0 ml-3">
+                      <img
+                        src="./assets/img/brew.png"
+                        width="62"
+                        class="rounded mt-2"
+                        alt="image"
+                      />
+                    </div>
+                    <div class="col px-3 pt-2">
+                      <p>
+                        <b>Hazelnut Latte</b>
+                      </p>
+                      <nav class="navbar p-0 m-0">
+                        <p><b>X 1</b></p>
+                        <p class="mr-4"><b>IDR 24.0</b></p>
+                      </nav>
+                      <p><b>Regular</b></p>
+                    </div>
+                  </div>
+                  <!-- <<<<>>>> -->
+                </div>
+                <div class="row px-4 py-0">
+                  <h5>SUBTOTAL</h5>
+                  <h5 class="ml-auto">IDR 120.000</h5>
+                </div>
+                <div class="row px-4 py-0">
+                  <h5>TAX & FEES</h5>
+                  <h5 class="ml-auto">IDR 20.000</h5>
+                </div>
+                <div class="row px-4 py-0">
+                  <h5>SHIPPING</h5>
+                  <h5 class="ml-auto">IDR 10.000</h5>
+                </div>
+                <div class="row px-4 py-0 mt-3" style="color: #6a4029">
+                  <h3><b>TOTAL</b></h3>
+                  <h3 class="ml-auto"><b>IDR 150.000</b></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6"></div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== -->
+    <footer class="bg-light">
       <div class="container p-4">
         <div class="profile">
           <a class="brand navbar-brand mb-2" href="#"
@@ -128,5 +284,6 @@
         </div>
       </div>
     </footer>
+    <!-- </div> -->
   </body>
 </html>

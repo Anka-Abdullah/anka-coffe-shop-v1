@@ -5,6 +5,7 @@
 * {
   font-family: "Gamja Flower", cursive;
 }
+
 .navbar-expand-lg {
   border-bottom: 0.3px solid rgb(223, 223, 223);
 }
@@ -128,4 +129,21 @@ footer ul {
 }
 footer ul li {
   list-style: none;
+}
+
+/* ==============Scroll============== */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* ::-webkit-scrollbar-track {
+  background: rgb(255, 243, 177);
+} */
+
+::-webkit-scrollbar-thumb {
+  background: #a59790;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6a4029;
 }
