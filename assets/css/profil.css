@@ -1,0 +1,71 @@
+section.profil {
+  padding-top: 160px;
+  padding-bottom: 110px;
+  background-image: url("../img/background3.png");
+  background-size: cover;
+}
+section.profil input.form-control {
+  border-radius: 0px !important;
+  border: none;
+  border-bottom: 1px solid black !important;
+}
+section.profil .card .badge {
+  width: 35px;
+  height: 35px;
+  color: white;
+  background-color: #6a4029;
+  font-size: 17px;
+  line-height: 30px;
+}
+input:checked ~ label h4 b {
+  color: #666a29 !important;
+}
+.check {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.check:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.check input:checked ~ .checkmark {
+  background-color: #6a4029;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.check input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.check .checkmark:after {
+  top: 2.5px;
+  left: 3px;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  background: #ffba33;
+}
