@@ -1,5 +1,6 @@
 section.cart {
   padding-top: 120px;
+  padding-bottom: 30px;
   background-image: url("../img/background2.png");
   background-size: cover;
 }
@@ -15,20 +16,20 @@ section.cart {
   height: 35px;
   line-height: 34px;
 }
-.cart h5.top,
-.cart h1.top {
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8) !important;
-}
 .cart h1 {
   font-weight: 700;
   letter-spacing: 3px;
 }
+#editlink:hover {
+  transform: scale(1.3);
+  border-bottom: 1px solid white;
+}
 #order {
   margin-left: 3px;
-  margin-right: 90px;
+  margin-right: 70px;
 }
 #checkout {
-  margin-right: 73px;
+  margin-right: 50px;
 }
 #payment {
   margin-top: -5px;
@@ -40,11 +41,12 @@ section.cart {
   margin-left: -10px;
   display: inline-block;
   background-color: white;
-  width: 120px;
+  width: 100px;
   height: 2px;
 }
 .cart .card-cart {
-  margin: 20px 50px;
+  margin: 20px 0;
+  width: 400px;
 }
 .cart-scroll {
   width: auto;
@@ -87,4 +89,11 @@ input[type="radio"]:checked:after {
   display: inline-block;
   visibility: visible;
   border: 2px solid #6a4029;
+}
+section.cart .badge-danger {
+  width: 35px;
+  height: 35px;
+  font-size: 17px;
+  line-height: 31px;
+  margin: 0 8px 0 20px;
 }

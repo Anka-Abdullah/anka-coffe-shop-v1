@@ -5,7 +5,6 @@
 * {
   font-family: "Gamja Flower", cursive;
 }
-
 .navbar-expand-lg {
   border-bottom: 0.3px solid rgb(223, 223, 223);
 }
@@ -69,6 +68,9 @@ nav ul li a:hover {
   background-color: #412719;
   transform: scale(0.98);
 }
+.chocolate:focus {
+  outline: none;
+}
 .card-item {
   padding: 5px;
   margin-bottom: 60px;
@@ -104,21 +106,6 @@ nav ul li a:hover {
   margin-top: 65px;
 }
 /* ==============footer============== */
-footer .container {
-  display: flex;
-}
-footer .profile {
-  flex: 3;
-}
-footer .product {
-  flex: 1;
-}
-footer .engage {
-  flex: 1;
-}
-footer ul {
-  text-align: left;
-}
 footer ul li {
   list-style: none;
 }
@@ -127,15 +114,13 @@ footer ul li {
 ::-webkit-scrollbar {
   width: 5px;
 }
-
-/* ::-webkit-scrollbar-track {
-  background: rgb(255, 243, 177);
-} */
-
 ::-webkit-scrollbar-thumb {
   background: #a59790;
 }
-
 ::-webkit-scrollbar-thumb:hover {
   background: #6a4029;
+}
+/* ====================================== */
+.anka-text-shadow {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8) !important;
 }

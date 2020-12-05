@@ -66,3 +66,8 @@ section.profil .card .badge {
   border-radius: 50%;
   background: #ffba33;
 }
+.card ul li label span {
+  background-color: #ffba33;
+  width: 30px;
+  height: 30px;
+}
