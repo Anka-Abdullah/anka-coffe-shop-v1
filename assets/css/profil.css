@@ -17,9 +17,6 @@ section.profil .card .badge {
   font-size: 17px;
   line-height: 30px;
 }
-input:checked ~ label h4 b {
-  color: #666a29 !important;
-}
 .check {
   display: block;
   position: relative;
