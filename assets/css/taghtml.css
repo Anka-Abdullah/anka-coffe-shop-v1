@@ -21,3 +21,17 @@ button {
 button:focus {
   outline: none;
 }
+select {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* -webkit-appearance: none; */
+  -moz-appearance: none;
+}
+select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  background-color: rgb(255, 243, 177) !important;
+  color: #6a4029 !important;
+}

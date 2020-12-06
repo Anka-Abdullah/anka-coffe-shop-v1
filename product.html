@@ -92,8 +92,8 @@
             <h5 style="color: rgb(124, 124, 124)">
               favorite promo <span style="color: #6a4029">> Cold Brew</span>
             </h5>
-            <div class="row mt-4">
-              <div class="card border border-0 mx-auto bg-transparent">
+            <div class="row my-4">
+              <div class="card border-0 mx-auto bg-transparent">
                 <img src="./assets/img/kopiteko.png" width="400" alt="" />
                 <p style="font-size: 20px" class="m-2">
                   Delivery only on <br /><b>Monday to friday</b> at
@@ -135,6 +135,45 @@
               flavor. It is brewed in small batches and steeped for as long as
               48 hours.
             </p>
+            <div class="col px-5 pt-3">
+              <select id="inputState" class="form-control form-control-lg my-4">
+                <option selected>Select Size</option>
+                <option value="r">R (regular)</option>
+                <option value="l">L (large)</option>
+                <option value="xl">XL (extra large)</option>
+              </select>
+              <select id="inputState" class="form-control form-control-lg mb-3">
+                <option selected>Select Delivery Method</option>
+                <option value="dinein">Dine in</option>
+                <option value="delivery">Door Delivery</option>
+                <option value="pickup">Pick Up</option>
+              </select>
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="count radius row px-3 mt-4 py-1">
+                    <button class="mr-auto">+</button
+                    ><span class="mx-auto">100</span
+                    ><button class="ml-auto">-</button>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <button
+                    class="chocolate yellow mt-4 mx-auto"
+                    style="width: 100%; padding: 12px 0"
+                  >
+                    Add To Cart
+                  </button>
+                </div>
+              </div>
+              <div class="row">
+                <button
+                  class="chocolate mt-4 mb-5 mx-auto"
+                  style="width: 100%; padding: 12px 0"
+                >
+                  checkout
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
