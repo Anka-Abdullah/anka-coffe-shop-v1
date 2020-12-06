@@ -1,0 +1,39 @@
+.product .badge {
+  height: 20px;
+  width: 20px;
+  line-height: 18px;
+  font-size: 10px;
+}
+.product .badge-light {
+  background-color: #6a4029;
+  margin-left: -10px;
+  width: 28px;
+  height: 28px;
+  line-height: 26px;
+}
+#order {
+  margin-left: 3px;
+  margin-right: 55px;
+}
+#checkout {
+  margin-right: 38px;
+}
+#payment {
+  margin-top: -5px;
+  font-size: 25px !important;
+  font-weight: 500;
+}
+.product .line {
+  margin-bottom: 3px;
+  margin-left: -4px;
+  display: inline-block;
+  background-color: rgb(155, 155, 155);
+  width: 90px;
+  height: 2px;
+}
+section.product h1.name {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 900;
+  font-size: 60px;
+  letter-spacing: 4px;
+}

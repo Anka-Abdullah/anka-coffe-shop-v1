@@ -61,15 +61,24 @@ nav ul li a:hover {
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 1px;
-  padding: 5px 15px;
+  padding: 5px 35px;
   background-color: #6a4029;
 }
 .chocolate:hover {
   background-color: #412719;
   transform: scale(0.98);
 }
-.chocolate:focus {
-  outline: none;
+.yellow {
+  font-weight: 700;
+  color: #6a4029;
+  background-color: #ffba33;
+}
+.putih {
+  font-weight: 700;
+  color: #6a4029;
+  background-color: #ffffff;
+  border: 1px solid #6a4029;
+  padding: 10px 35px;
 }
 .card-item {
   padding: 5px;
@@ -109,7 +118,6 @@ nav ul li a:hover {
 footer ul li {
   list-style: none;
 }
-
 /* ==============Scroll============== */
 ::-webkit-scrollbar {
   width: 5px;
