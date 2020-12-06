@@ -25,7 +25,6 @@
       integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./assets/css/responsive.css" />
     <link rel="stylesheet" href="./assets/css/utilities.css" />
     <link rel="stylesheet" href="./assets/css/taghtml.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
@@ -168,20 +167,23 @@
             Apply Coupon</button
           ><br /><br />
           <div class="bottom mt-3" style="margin-bottom: 30px">
-            <h6 class="anka-title m-0">Terms and Condition</h6>
-            <p>1. You can only apply 1 coupon per day</p>
-            <p>2. It only for dine in</p>
-            <p>3. Buy 1 get 1 only for new user</p>
-            <p>4. Should make member card to apply coupon</p>
+            <ol>
+              <h6 class="anka-title">Terms and Condition</h6>
+              <li><p>You can only apply 1 coupon per day</p></li>
+              <li><p>It only for dine in</p></li>
+              <li><p>Buy 1 get 1 only for new user</p></li>
+              <li><p>Should make member card to apply coupon</p></li>
+            </ol>
           </div>
         </div>
       </section>
 
       <section class="col-lg-8">
+        <div class="my-5 responsive"></div>
         <nav class="navbar navbar-expand-lg navbar-light">
-          <h4 class="navbar-brand responsive anka-title">Select Category</h4>
+          <!-- <h4 class="navbar-brand responsive anka-title"></h4> -->
           <button
-            class="navbar-toggler"
+            class="navbar-toggler chocolate mx-auto mb-4 text-white"
             type="button"
             data-toggle="collapse"
             data-target="#navbarNav"
@@ -189,39 +191,39 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            Select Category
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
-              <li class="nav-item">
+              <li class="nav-item mx-auto">
                 <label class="select"
                   >Favorite & Promo
                   <input type="radio" name="radio" checked="checked" hidden />
                   <span class="checkmark"></span>
                 </label>
               </li>
-              <li class="nav-item">
+              <li class="nav-item mx-auto">
                 <label class="select"
                   >Coffee
                   <input type="radio" name="radio" hidden />
                   <span class="checkmark"></span>
                 </label>
               </li>
-              <li class="nav-item">
+              <li class="nav-item mx-auto">
                 <label class="select"
                   >Non Coffee
                   <input type="radio" name="radio" hidden />
                   <span class="checkmark"></span>
                 </label>
               </li>
-              <li class="nav-item">
+              <li class="nav-item mx-auto">
                 <label class="select"
                   >Foods
                   <input type="radio" name="radio" hidden />
                   <span class="checkmark"></span>
                 </label>
               </li>
-              <li class="nav-item">
+              <li class="nav-item mx-auto">
                 <label class="select"
                   >Add-On
                   <input type="radio" name="radio" hidden />
@@ -241,7 +243,8 @@
                 class="rounded-pill"
                 alt="item"
               />
-              <div class="card-item-discount">20%</div>
+              <div class="card-item-discount"></div>
+              <br />
               <h4 class="card-item-title">Veggie tomato mix</h4>
               <h6 class="anka-title">IDR 34.000</h6>
             </div>
@@ -283,7 +286,7 @@
                 class="rounded-pill"
                 alt="item"
               />
-              <div class="card-item-discount">20%</div>
+              <div class="card-item-discount"></div>
               <h4 class="card-item-title">Veggie tomato mix</h4>
               <h6 class="anka-title">IDR 34.000</h6>
             </div>
@@ -311,7 +314,7 @@
                 class="rounded-pill"
                 alt="item"
               />
-              <div class="card-item-discount">20%</div>
+              <div class="card-item-discount"></div>
               <h4 class="card-item-title">Veggie tomato mix</h4>
               <h6 class="anka-title">IDR 34.000</h6>
             </div>
@@ -325,7 +328,7 @@
                 class="rounded-pill"
                 alt="item"
               />
-              <div class="card-item-discount">20%</div>
+              <div class="card-item-discount"></div>
               <h4 class="card-item-title">Veggie tomato mix</h4>
               <h6 class="anka-title">IDR 34.000</h6>
             </div>
@@ -377,15 +380,18 @@
               meals, and especially coffee.<br />
               We provide high quality beans
             </p>
-            <span>
-              <i class="fab fa-facebook-f"></i>
+            <span class="badge">
+              <a href="https://www.facebook.com"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
             </span>
-            <span>
-              <i class="fab fa-twitter"></i>
-            </span>
-            <span>
-              <i class="fab fa-instagram"></i>
-            </span>
+            <span class="badge"
+              ><a href="https://www.twitter.com"
+                ><i class="fab fa-twitter"></i></a></span
+            ><span class="badge"
+              ><a href="https://www.instagram.com"
+                ><i class="fab fa-instagram"></i></a
+            ></span>
             <br />
             <small class="text-muted">©2020CoffeeStore</small>
           </div>

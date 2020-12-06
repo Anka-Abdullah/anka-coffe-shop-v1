@@ -71,6 +71,11 @@ section.profil .card .badge {
   width: 30px;
   height: 30px;
 }
+.bottom-line {
+  background-color: #6a4029;
+  width: 100%;
+  height: 10px;
+}
 @media (max-width: 600px) {
   .check input:checked ~ .checkmark {
     background-color: #ffba33;

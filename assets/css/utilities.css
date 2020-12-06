@@ -42,15 +42,13 @@ nav ul li a:hover {
   background-color: rgb(255, 243, 177);
 }
 .aktip {
-  transform: scale(1.2);
   color: #6a4029 !important;
   font-weight: 800;
-  border-bottom: 1px solid #412719;
+  border-bottom: 2px solid #412719;
 }
 .anka-card {
   margin: 20px;
   padding: 10px 20px;
-  /* border: 1px solid black; */
   border-radius: 20px;
   align-items: center;
 }
@@ -86,43 +84,28 @@ nav ul li a:hover {
   border: 1px solid #6a4029;
   padding: 10px 35px;
 }
-.card-item {
-  padding: 5px;
-  margin-bottom: 60px;
-  border-radius: 30px;
-  width: 140px;
-  height: 200px;
-  text-align: center;
-  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
-    0 22.3px 17.9px rgba(0, 0, 0, 0.072);
+.card {
+  border-radius: 10px !important;
+  overflow: hidden;
 }
-.card-item:hover {
-  transform: scale(1.1);
-}
-.card-item img {
-  margin-top: -40px;
-}
-.card-item-discount {
-  position: relative;
-  background: #ffffff;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  width: 70px;
-  border-radius: 20px;
-  font-weight: 800;
-  font-size: 23px;
-  margin-top: -90px;
-  margin-left: 90px;
-}
-.card-item-title {
-  font-size: 25px;
-  font-weight: 800;
-  font-family: "Patrick Hand", cursive;
-  margin-top: 65px;
-}
+
 /* ==============footer============== */
 footer ul li {
   list-style: none;
+}
+footer span.badge {
+  width: 30px;
+  height: 30px;
+  font-size: 17px;
+  line-height: 25px;
+  color: #412719;
+  display: inline-block;
+  background-color: #ffba33;
+  border-radius: 50%;
+  margin: 15px 5px;
+}
+footer span.badge:hover {
+  transform: scale(1.2);
 }
 /* ==============Scroll============== */
 ::-webkit-scrollbar {
@@ -137,6 +120,11 @@ footer ul li {
 /* ====================================== */
 .anka-text-shadow {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8) !important;
+}
+.product .line-limit {
+  width: 300px;
+  height: 2px;
+  background-color: rgb(155, 155, 155);
 }
 .responsive {
   display: none;

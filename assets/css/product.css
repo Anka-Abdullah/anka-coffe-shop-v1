@@ -31,6 +31,7 @@
   width: 90px;
   height: 2px;
 }
+
 section.product h1.name {
   font-family: "Patrick Hand", cursive;
   font-weight: 900;
@@ -47,5 +48,9 @@ section.product .count {
   section.product img {
     width: 300px;
     height: auto;
+  }
+  section.product h1.name,
+  section.product h1.price {
+    text-align: center;
   }
 }
