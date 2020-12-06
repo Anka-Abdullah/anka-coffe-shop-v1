@@ -129,9 +129,6 @@ footer span.badge:hover {
 .responsive {
   display: none;
 }
-.desktop {
-  display: block;
-}
 @media (max-width: 600px) {
   .responsive {
     display: block;
