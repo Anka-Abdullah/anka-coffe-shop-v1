@@ -43,3 +43,9 @@ section.product .count {
   font-weight: bold;
   border-radius: 20px;
 }
+@media (max-width: 600px) {
+  section.product img {
+    width: 300px;
+    height: auto;
+  }
+}

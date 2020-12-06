@@ -41,6 +41,12 @@ nav ul li a:hover {
   color: #6a4029;
   background-color: rgb(255, 243, 177);
 }
+.aktip {
+  transform: scale(1.2);
+  color: #6a4029 !important;
+  font-weight: 800;
+  border-bottom: 1px solid #412719;
+}
 .anka-card {
   margin: 20px;
   padding: 10px 20px;
@@ -131,4 +137,18 @@ footer ul li {
 /* ====================================== */
 .anka-text-shadow {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8) !important;
+}
+.responsive {
+  display: none;
+}
+.desktop {
+  display: block;
+}
+@media (max-width: 600px) {
+  .responsive {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
 }

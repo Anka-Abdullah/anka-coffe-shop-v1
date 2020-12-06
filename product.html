@@ -55,7 +55,7 @@
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="product.html">Product</a>
+              <a class="nav-link aktip" href="product.html">Product</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="cart.html">Your Cart</a>
@@ -63,9 +63,30 @@
             <li class="nav-item">
               <a class="nav-link" href="history.html">History</a>
             </li>
+            <li class="nav-item mt-2 responsive">
+              <a href="#" class="navlink">
+                <i class="fas fa-search"></i> Search
+              </a>
+            </li>
+            <li class="nav-item mt-2 responsive">
+              <a href="#" class="navlink">
+                <i class="far fa-comments"></i> Chat
+              </a>
+            </li>
+            <li class="nav-item mt-2 responsive">
+              <a href="profil.html" class="navlink">
+                <img
+                  src="./assets/img/girl.png"
+                  alt="profile"
+                  class="rounded-pill"
+                  width="30"
+                />
+                Profil
+              </a>
+            </li>
           </ul>
 
-          <div class="ml-auto">
+          <div class="ml-auto desktop">
             <a href="#" class="navlink">
               <i class="fas fa-search"></i>
             </a>
@@ -92,6 +113,32 @@
             <h5 style="color: rgb(124, 124, 124)">
               favorite promo <span style="color: #6a4029">> Cold Brew</span>
             </h5>
+            <div class="responsive">
+              <div class="mapping p-3">
+                <span class="badge badge-light rounded-circle"
+                  ><span class="badge badge-warning rounded-circle"
+                    >&#10003;</span
+                  ></span
+                >
+                <div class="line"></div>
+                <span class="badge badge-light rounded-circle"
+                  ><span class="badge badge-warning rounded-circle"
+                    >&#10003;</span
+                  ></span
+                >
+                <div class="line"></div>
+                <span class="badge badge-light rounded-circle"
+                  ><span class="badge badge-warning text-warning rounded-circle"
+                    >.</span
+                  ></span
+                >
+              </div>
+              <div class="row px-3 mb-4">
+                <h5 id="order"><b>Order</b></h5>
+                <h5 id="checkout"><b>Checkout</b></h5>
+                <h5 id="payment"><b>Payment</b></h5>
+              </div>
+            </div>
             <div class="row my-4">
               <div class="card border-0 mx-auto bg-transparent">
                 <img src="./assets/img/kopiteko.png" width="400" alt="" />
@@ -100,10 +147,14 @@
                   <b>1 - 7 pm</b>
                 </p>
               </div>
+              <div
+                class="line mx-auto mt-4 responsive"
+                style="width: 300px"
+              ></div>
             </div>
           </div>
           <div class="col-lg-7">
-            <div class="mapping p-3">
+            <div class="mapping p-3 desktop">
               <span class="badge badge-light rounded-circle"
                 ><span class="badge badge-warning rounded-circle"
                   >&#10003;</span
@@ -122,7 +173,7 @@
                 ></span
               >
             </div>
-            <div class="row px-3 mb-4">
+            <div class="row px-3 mb-4 desktop">
               <h5 id="order"><b>Order</b></h5>
               <h5 id="checkout"><b>Checkout</b></h5>
               <h5 id="payment"><b>Payment</b></h5>

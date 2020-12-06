@@ -20,3 +20,8 @@
   color: rgb(255, 243, 177);
   border-bottom: 2px solid rgb(255, 243, 177);
 }
+@media (max-width: 600px) {
+  .history h1.text-center {
+    font-size: 45px;
+  }
+}

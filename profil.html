@@ -63,9 +63,30 @@
             <li class="nav-item">
               <a class="nav-link" href="history.html">History</a>
             </li>
+            <li class="nav-item mt-2 responsive">
+              <a href="#" class="navlink">
+                <i class="fas fa-search"></i> Search
+              </a>
+            </li>
+            <li class="nav-item mt-2 responsive">
+              <a href="#" class="navlink">
+                <i class="far fa-comments"></i> Chat
+              </a>
+            </li>
+            <li class="nav-item mt-2 responsive">
+              <a href="profil.html" class="navlink">
+                <img
+                  src="./assets/img/girl.png"
+                  alt="profile"
+                  class="rounded-pill"
+                  width="30"
+                />
+                Profil
+              </a>
+            </li>
           </ul>
 
-          <div class="ml-auto">
+          <div class="ml-auto desktop">
             <a href="#" class="navlink">
               <i class="fas fa-search"></i>
             </a>
@@ -86,7 +107,7 @@
     </nav>
     <section class="profil">
       <div class="container">
-        <h1 class="text-white"><b>User Profile</b></h1>
+        <h1 class="text-white anka-text-shadow"><b>User Profile</b></h1>
         <div class="card p-3">
           <div class="card-body row mb-4 mt-2">
             <div class="col-lg-3">
@@ -106,10 +127,10 @@
                 <button class="chocolate yellow mx-auto">choose Photo</button>
               </div>
               <div class="row mt-3">
-                <button class="chocolate mx-auto">choose Photo</button>
+                <button class="chocolate mx-auto">Remove Photo</button>
               </div>
               <div class="row my-4">
-                <button class="chocolate putih mx-auto">choose Photo</button>
+                <button class="chocolate putih mx-auto">Edit Password</button>
               </div>
               <h4 class="anka-title text-center">
                 Do you want to save <br />
@@ -120,16 +141,16 @@
                   class="chocolate yellow mx-auto"
                   style="padding: 10px 35px"
                 >
-                  choose Photo
+                  Save Change
                 </button>
               </div>
               <div class="row mt-3">
                 <button class="chocolate mx-auto" style="padding: 10px 35px">
-                  choose Photo
+                  cancel
                 </button>
               </div>
               <div class="row mt-4">
-                <button class="chocolate putih mx-auto">choose Photo</button>
+                <button class="chocolate putih mx-auto">Logout</button>
               </div>
             </div>
             <div class="col-lg-9">
@@ -151,7 +172,7 @@
                       <input
                         type="text"
                         class="form-control"
-                        placeholder="First name"
+                        placeholder="Email Address"
                       />
                     </div>
                     <div class="col-lg-5 mt-4">
@@ -161,54 +182,50 @@
                         </h5></label
                       >
                       <input
-                        type="text"
+                        type="number"
                         class="form-control"
-                        placeholder="Last name"
+                        placeholder="(+62)813456782"
                       />
                     </div>
                     <div class="col-lg-7 mt-4">
                       <label for=""
                         ><h5 class="m-0 text-secondary">
-                          <b>Delivery adress :</b>
+                          <b>Delivery address :</b>
                         </h5></label
                       >
                       <input
                         type="text"
                         class="form-control"
-                        placeholder="First name"
+                        placeholder="Delivery address"
                       />
                     </div>
                   </div>
-                  <h2 class="mt-5 mb-1"><b>Details</b></h2>
+                  <h2 class="mt-5 mb-3"><b>Details</b></h2>
                   <div class="row">
                     <div class="col-lg-7 mt-4">
                       <label for=""
                         ><h5 class="m-0 text-secondary">
-                          <b>Email Address :</b>
+                          <b>Display Name</b>
                         </h5></label
                       >
                       <input
                         type="text"
                         class="form-control"
-                        placeholder="First name"
+                        placeholder="Display Name"
                       />
                     </div>
                     <div class="col-lg-5 mt-4">
                       <label for=""
                         ><h5 class="m-0 text-secondary">
-                          <b>Mobile number :</b>
+                          <b>DD/MM/YY</b>
                         </h5></label
                       >
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Last name"
-                      />
+                      <input type="date" class="form-control" />
                     </div>
                     <div class="col-lg-7 mt-4">
                       <label for=""
                         ><h5 class="m-0 text-secondary">
-                          <b>Delivery adress :</b>
+                          <b>First Name</b>
                         </h5></label
                       >
                       <input
@@ -220,48 +237,30 @@
                     <div class="col-lg-7 mt-4">
                       <label for=""
                         ><h5 class="m-0 text-secondary">
-                          <b>Delivery adress :</b>
+                          <b>Last Name</b>
                         </h5></label
                       >
                       <input
                         type="text"
                         class="form-control"
-                        placeholder="First name"
+                        placeholder="Last Name"
                       />
                     </div>
                   </div>
-                  <div class="row mt-5">
-                    <div class="col-lg-6">
-                      <div class="row">
-                        <div class="mx-auto">
-                          <label for="male" class="check"
-                            ><h4><b style="color: #6a4029">Male</b></h4>
-                            <input
-                              type="radio"
-                              name="profil"
-                              id="male"
-                              hidden
-                            />
-                            <span class="checkmark"></span>
-                          </label>
-                        </div>
-                      </div>
+                  <div class="row mt-5 mb-3">
+                    <div class="mx-auto">
+                      <label for="male" class="check"
+                        ><h4><b style="color: #6a4029">Male</b></h4>
+                        <input type="radio" name="profil" id="male" hidden />
+                        <span class="checkmark"></span>
+                      </label>
                     </div>
-                    <div class="col-lg-6">
-                      <div class="row">
-                        <div class="mx-auto">
-                          <label for="female" class="check"
-                            ><h4><b style="color: #6a4029">Female</b></h4>
-                            <input
-                              type="radio"
-                              name="profil"
-                              id="female"
-                              hidden
-                            />
-                            <span class="checkmark"></span>
-                          </label>
-                        </div>
-                      </div>
+                    <div class="mx-auto">
+                      <label for="female" class="check"
+                        ><h4><b style="color: #6a4029">Female</b></h4>
+                        <input type="radio" name="profil" id="female" hidden />
+                        <span class="checkmark"></span>
+                      </label>
                     </div>
                   </div>
                 </form>

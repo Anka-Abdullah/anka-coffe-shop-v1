@@ -52,7 +52,7 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link aktip" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="product.html">Product</a>
@@ -63,9 +63,30 @@
             <li class="nav-item">
               <a class="nav-link" href="history.html">History</a>
             </li>
+            <li class="nav-item mt-2 responsive">
+              <a href="#" class="navlink">
+                <i class="fas fa-search"></i> Search
+              </a>
+            </li>
+            <li class="nav-item mt-2 responsive">
+              <a href="#" class="navlink">
+                <i class="far fa-comments"></i> Chat
+              </a>
+            </li>
+            <li class="nav-item mt-2 responsive">
+              <a href="profil.html" class="navlink">
+                <img
+                  src="./assets/img/girl.png"
+                  alt="profile"
+                  class="rounded-pill"
+                  width="30"
+                />
+                Profil
+              </a>
+            </li>
           </ul>
 
-          <div class="ml-auto">
+          <div class="ml-auto desktop">
             <a href="#" class="navlink">
               <i class="fas fa-search"></i>
             </a>
@@ -157,33 +178,57 @@
       </section>
 
       <section class="col-lg-8">
-        <nav class="navbar bg-white mb-3">
-          <div class="container">
-            <label class="select"
-              >Favorite & Promo
-              <input type="radio" name="radio" checked="checked" hidden />
-              <span class="checkmark"></span>
-            </label>
-            <label class="select"
-              >Coffee
-              <input type="radio" name="radio" hidden />
-              <span class="checkmark"></span>
-            </label>
-            <label class="select"
-              >Non Coffee
-              <input type="radio" name="radio" hidden />
-              <span class="checkmark"></span>
-            </label>
-            <label class="select"
-              >Foods
-              <input type="radio" name="radio" hidden />
-              <span class="checkmark"></span>
-            </label>
-            <label class="select"
-              >Add-On
-              <input type="radio" name="radio" hidden />
-              <span class="checkmark"></span>
-            </label>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <h4 class="navbar-brand responsive anka-title">Select Category</h4>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <label class="select"
+                  >Favorite & Promo
+                  <input type="radio" name="radio" checked="checked" hidden />
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              <li class="nav-item">
+                <label class="select"
+                  >Coffee
+                  <input type="radio" name="radio" hidden />
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              <li class="nav-item">
+                <label class="select"
+                  >Non Coffee
+                  <input type="radio" name="radio" hidden />
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              <li class="nav-item">
+                <label class="select"
+                  >Foods
+                  <input type="radio" name="radio" hidden />
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              <li class="nav-item">
+                <label class="select"
+                  >Add-On
+                  <input type="radio" name="radio" hidden />
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+            </ul>
           </div>
         </nav>
         <!-- items -->
