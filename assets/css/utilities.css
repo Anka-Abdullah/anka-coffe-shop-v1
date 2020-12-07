@@ -77,12 +77,20 @@ nav ul li a:hover {
   color: #6a4029;
   background-color: #ffba33;
 }
+.yellow:hover {
+  transform: scale(0.98);
+  background-color: #c79227;
+}
 .putih {
   font-weight: 700;
   color: #6a4029;
   background-color: #ffffff;
   border: 1px solid #6a4029;
   padding: 10px 35px;
+}
+.putih:hover {
+  transform: scale(0.98);
+  background-color: #c7c7c7;
 }
 .card {
   border-radius: 10px !important;
