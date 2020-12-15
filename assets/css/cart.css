@@ -20,9 +20,7 @@ section.cart {
   background-color: #6a4029;
   color: #6a4029;
 }
-.cart #right-column {
-  width: 400px;
-}
+
 .cart h1 {
   font-weight: 700;
   letter-spacing: 3px;
