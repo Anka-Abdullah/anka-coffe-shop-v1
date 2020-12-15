@@ -9,6 +9,7 @@ p {
 }
 a {
   color: rgb(85, 84, 84);
+  text-decoration: none;
 }
 a:hover {
   text-decoration: none;

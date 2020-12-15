@@ -80,4 +80,9 @@ section.profil .card .badge {
   .check input:checked ~ .checkmark {
     background-color: #ffba33;
   }
+  .profil h1.text-white {
+    text-align: center;
+    margin: 10px;
+    font-size: 50px;
+  }
 }

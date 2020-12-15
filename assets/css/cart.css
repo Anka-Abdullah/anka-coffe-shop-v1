@@ -10,11 +10,18 @@ section.cart {
   line-height: 18px;
   font-size: 10px;
 }
-.cart .badge-light {
+.cart .bg-light {
   margin-left: -10px;
   width: 35px;
   height: 35px;
   line-height: 34px;
+}
+.cart .badge .bg-success1 {
+  background-color: #6a4029;
+  color: #6a4029;
+}
+.cart #right-column {
+  width: 400px;
 }
 .cart h1 {
   font-weight: 700;
@@ -96,4 +103,13 @@ section.cart .badge-danger {
   font-size: 17px;
   line-height: 31px;
   margin: 0 8px 0 20px;
+}
+@media (max-width: 600px) {
+  section.cart {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .cart #right-column {
+    width: 350px;
+  }
 }
